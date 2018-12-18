@@ -1,0 +1,55 @@
+body {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+section h2 {
+    font-weight: 700;
+}
+
+section#home {
+    background: url(../images/banner-home.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.teste {
+    color: #000000;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+/* ##################################### SOBRE ##################################### */
+
+section#sobre{
+    padding-top: 2.5em;
+    text-align: center;
+}
+
+span.underline {
+    text-decoration: underline;
+    text-decoration-color: #03c4d7;
+}
+
+span.underline_white {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+/* ##################################### FOOTER ##################################### */
+
+#footer {
+    text-align: center;
+}
+
+#footer p {
+    font-size: 0.667em;
+    display: inline-block;
+    margin: 2em 4em;
+}
